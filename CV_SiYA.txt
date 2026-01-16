@@ -1,0 +1,121 @@
+SiYA - RESUME
+================================================================================
+
+CONTACT INFORMATION
+================================================================================
+Email: siyaphor942@gmail.com
+Phone: +91 89509 12655
+GitHub: github.com/Siyaphor
+LinkedIn: linkedin.com/in/siya-phor
+
+================================================================================
+PROFESSIONAL SUMMARY
+================================================================================
+Computer Science Engineering student with strong interest in web development 
+and full-stack application building. Experienced in creating responsive, 
+user-friendly digital solutions with modern technologies. Skilled in HTML5, 
+CSS3, JavaScript, React.js, Python, and Node.js.
+
+================================================================================
+TECHNICAL SKILLS
+================================================================================
+Frontend Development:
+  • HTML5, CSS3, JavaScript
+  • React.js, Responsive Design
+  • Modern Web Design Principles
+
+Backend Development:
+  • Node.js, Python, Java
+  • Database Design (MongoDB, SQL)
+  • RESTful APIs
+
+Programming Languages:
+  • JavaScript, Python, Java, C
+  • Data Structures & Algorithms
+
+Tools & Technologies:
+  • Git & GitHub, VS Code
+  • Data Analysis (Pandas, NumPy, Matplotlib)
+  • Computer Vision (OpenCV)
+  • Problem Solving & Debugging
+
+================================================================================
+PROFESSIONAL EXPERIENCE
+================================================================================
+
+Web Development Intern - Sanpra Consultancy Services
+  • Developed frontend components with HTML, CSS, JavaScript
+  • Implemented responsive web designs for multiple projects
+  • Collaborated with design and backend teams
+  • Gained hands-on experience with real-world project structure
+
+Data Science Intern - Oasis Infobyte
+  • Performed exploratory data analysis (EDA) on datasets
+  • Created data visualizations using Python (Matplotlib, Seaborn)
+  • Implemented machine learning concepts for data analysis
+  • Built small-scale analytical projects
+
+Python Programming Intern - CodeAlpha
+  • Solved real-world programming problems using Python
+  • Strengthened problem-solving and debugging skills
+  • Worked on logic-based algorithms and data structures
+  • Improved code quality and best practices
+
+================================================================================
+FEATURED PROJECTS
+================================================================================
+
+Global Hackathon Explorer (Frontend)
+  • Built responsive web interface using React.js
+  • Implemented location-based filtering and search functionality
+  • Designed scalable, maintainable component architecture
+
+RapidServe - Instant Local Help Platform
+  • Conceptualized geo-based service platform
+  • Designed user flow and UX architecture
+  • Tech Stack: React.js, Node.js, MongoDB (Planned)
+
+Car Price Analysis & Visualization
+  • Analyzed automotive dataset with Python
+  • Performed data cleaning and preprocessing
+  • Created visualizations to identify market trends
+
+SoulCart - AI Powered Sustainable Commerce Platform
+  • Designed AI-driven conscious commerce concept
+  • Integrated blockchain and sustainability features
+  • Developed for Walmart Hackathon: Retail with Purpose
+
+Hand Gesture Control System
+  • Designed computer vision-based gesture recognition
+  • Planned implementation using Python & OpenCV
+
+================================================================================
+EDUCATION
+================================================================================
+Computer Science Engineering (CSE)
+  • Strong foundation in data structures, algorithms, and system design
+  • Coursework in web development, databases, and software engineering
+
+================================================================================
+ACHIEVEMENTS & CERTIFICATIONS
+================================================================================
+  • 15+ Projects completed across web development, data science, and programming
+  • 3+ Internships with focus on practical skill development
+  • Proficient in 5+ programming languages and frameworks
+  • Active in hackathon participation and innovation challenges
+
+================================================================================
+LANGUAGES
+================================================================================
+  • English (Fluent)
+  • Hindi (Fluent)
+
+================================================================================
+ADDITIONAL INFORMATION
+================================================================================
+  • Passionate about creating user-centric web applications
+  • Strong problem-solving and debugging skills
+  • Committed to continuous learning and skill development
+  • Interested in full-stack development and emerging technologies
+
+================================================================================

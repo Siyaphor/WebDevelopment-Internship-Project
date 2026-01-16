@@ -3,77 +3,360 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SiYA | Portfolio</title>
-    <!-- Week 2 Enhancement: Added modern font import and improved meta tags -->
+    <title>SiYA | Professional Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-    <!-- Week 2 Enhancement: Navigation with glassmorphism effect and smooth hover animations -->
+    <!-- Left Sidebar Social -->
+    <div class="sidebar-social">
+        <a href="https://www.linkedin.com/in/siya-phor" target="_blank" title="LinkedIn">
+            <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="https://github.com/Siyaphor" target="_blank" title="GitHub">
+            <i class="fab fa-github"></i>
+        </a>
+        <a href="mailto:siyaphor942@gmail.com" title="Email">
+            <i class="fas fa-envelope"></i>
+        </a>
+    </div>
+
+    <!-- Navigation Bar -->
     <nav>
-        <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
+        <div class="nav-container">
+            <div class="logo">SiYA</div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#resume" class="resume-link">Resume</a></li>
+            </ul>
+        </div>
     </nav>
 
-    <!-- Week 2 Enhancement: Header with futuristic gradient background and animated profile image -->
-    <header>
-        <img src="profile.jpg.jpeg" alt="SiYA - Profile Picture">
-        <h1>SiYA</h1>
-        <p>Computer Science Engineering Student | Web Development</p>
-    </header>
-
-    <!-- Week 2 Enhancement: Sections with glassmorphism cards and fade-in animations -->
-    <section id="about">
-        <h2>About Me</h2>
-        <p>
-            I am a Computer Science Engineering student with a strong interest in web development
-            and creating practical, user-friendly digital solutions. I enjoy building responsive
-            websites and continuously improving my technical skills through hands-on learning.
-        </p>
-    </section>
-
-    <section id="skills">
-        <h2>Skills</h2>
-        <div class="skills">
-            <!-- Week 2 Enhancement: Skill boxes with hover scale effects and shimmer animation -->
-            <div class="skill-box">HTML5</div>
-            <div class="skill-box">CSS3</div>
-            <div class="skill-box">JavaScript</div>
-            <div class="skill-box">Responsive Design</div>
-            <div class="skill-box">Web Development</div>
+    <!-- Home Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-image">
+                <div class="image-wrapper">
+                    <img src="profile.jpg.jpeg" alt="SiYA - Profile Picture">
+                </div>
+            </div>
+            <div class="hero-text">
+                <p class="intro-tag">Hi, I'm a</p>
+                <h1><span class="highlight">Full-Stack Developer</span></h1>
+                <p class="subtitle">SiYA</p>
+                <p class="description">Computer Science Engineering student passionate about building modern web applications and innovative digital solutions. Specialized in creating responsive, scalable applications with clean code.</p>
+                <div class="cta-buttons">
+                    <a href="CV_SiYA.txt" download="SiYA_Resume.txt" class="btn btn-primary">
+                        <span>Download CV</span>
+                    </a>
+                    <a href="#projects" class="btn btn-secondary">
+                        <span>Projects</span>
+                    </a>
+                </div>
+            </div>
         </div>
     </section>
 
-    <section id="projects">
-        <h2>Projects</h2>
-        <!-- Week 2 Enhancement: Project cards with slide hover effects -->
-        <div class="project">
-            <strong>Personal Portfolio Website</strong>
-            <p>
-                A responsive portfolio website created using HTML and CSS to showcase
-                personal details, skills, and contact information.
-            </p>
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="section-header">
+            <h2>About Me</h2>
+            <div class="header-underline"></div>
+        </div>
+        <div class="about-content">
+            <div class="about-text">
+                <p>I'm a Computer Science Engineering student with a strong passion for web development and creating practical, user-friendly digital solutions. With experience across frontend and backend technologies, I specialize in building responsive, scalable applications.</p>
+                <p>My journey in tech started with a curiosity about how things work on the internet, which evolved into a full commitment to mastering web development. I believe in continuous learning and staying updated with the latest technologies and best practices.</p>
+                <div class="about-highlights">
+                    <div class="highlight-item">
+                        <span class="number">3+</span>
+                        <span class="label">Internships</span>
+                    </div>
+                    <div class="highlight-item">
+                        <span class="number">15+</span>
+                        <span class="label">Projects</span>
+                    </div>
+                    <div class="highlight-item">
+                        <span class="number">5+</span>
+                        <span class="label">Technologies</span>
+                    </div>
+                </div>
+            </div>
+            <div class="about-visual">
+                <div class="floating-card card-1">Frontend</div>
+                <div class="floating-card card-2">Backend</div>
+                <div class="floating-card card-3">Design</div>
+                <div class="floating-card card-4">Database</div>
+            </div>
         </div>
     </section>
 
-    <section id="contact">
-        <h2>Contact</h2>
-        <!-- Week 2 Enhancement: Enhanced contact section with multiple contact methods -->
-        <div class="contact-info">
-            <p><strong>Email:</strong> <a href="mailto:siyaphor942@gmail.com">siyaphor942@gmail.com</a></p>
-            <p><strong>Phone:</strong> <a href="tel:+918950912655">+91 89509 12655</a></p>
-            <p><strong>GitHub:</strong> <a href="https://github.com/Siyaphor" target="_blank">github.com/Siyaphor</a></p>
-            <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/siya-phor" target="_blank">linkedin.com/in/siya-phor</a></p>
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+        <div class="section-header">
+            <h2>Technical Skills</h2>
+            <div class="header-underline"></div>
+        </div>
+        
+        <div class="skills-grid">
+            <!-- Frontend Skills -->
+            <div class="skill-category">
+                <h3>Frontend</h3>
+                <div class="skill-items">
+                    <div class="skill-item rotating">HTML5</div>
+                    <div class="skill-item rotating">CSS3</div>
+                    <div class="skill-item rotating">JavaScript</div>
+                    <div class="skill-item rotating">React.js</div>
+                    <div class="skill-item rotating">Responsive Design</div>
+                </div>
+            </div>
+
+            <!-- Backend Skills -->
+            <div class="skill-category">
+                <h3>Backend</h3>
+                <div class="skill-items">
+                    <div class="skill-item pulse">Python</div>
+                    <div class="skill-item pulse">Node.js</div>
+                    <div class="skill-item pulse">Java</div>
+                    <div class="skill-item pulse">C Programming</div>
+                </div>
+            </div>
+
+            <!-- Tools & Technologies -->
+            <div class="skill-category">
+                <h3>Tools & Tech</h3>
+                <div class="skill-items">
+                    <div class="skill-item float-up">Git & GitHub</div>
+                    <div class="skill-item float-up">MongoDB</div>
+                    <div class="skill-item float-up">Data Analysis</div>
+                    <div class="skill-item float-up">OpenCV</div>
+                    <div class="skill-item float-up">Problem Solving</div>
+                </div>
+            </div>
         </div>
     </section>
 
-    <!-- Week 2 Enhancement: Footer with modern gradient design -->
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <div class="section-header">
+            <h2>Featured Projects</h2>
+            <div class="header-underline"></div>
+        </div>
+
+        <div class="projects-container">
+            <!-- Web Development Projects -->
+            <div class="project-group">
+                <h3 class="group-title">🌐 Web Development</h3>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-icon">🚀</div>
+                        <h4>Global Hackathon Explorer</h4>
+                        <p class="tech-stack">React.js | JavaScript | CSS3</p>
+                        <p class="description">Responsive web interface for exploring global hackathons with location-based filtering and scalable architecture.</p>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-icon">⚡</div>
+                        <h4>RapidServe Platform</h4>
+                        <p class="tech-stack">React.js | Node.js | MongoDB</p>
+                        <p class="description">Real-time geo-based service platform connecting users with nearby providers using urgency and proximity logic.</p>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-icon">💼</div>
+                        <h4>Personal Portfolio</h4>
+                        <p class="tech-stack">HTML5 | CSS3 | JavaScript</p>
+                        <p class="description">Professional responsive portfolio showcasing projects and skills with modern design principles.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Data Science Projects -->
+            <div class="project-group">
+                <h3 class="group-title">📊 Data Science</h3>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-icon">📈</div>
+                        <h4>Car Price Analysis</h4>
+                        <p class="tech-stack">Python | Pandas | Matplotlib</p>
+                        <p class="description">Analyzed car dataset with EDA to study price trends based on year, fuel type, and usage patterns.</p>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-icon">♻️</div>
+                        <h4>Food-Waste Analytics</h4>
+                        <p class="tech-stack">Python | Data Analytics</p>
+                        <p class="description">Analytics system to monitor and reduce food waste using consumption pattern insights.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Programming Projects -->
+            <div class="project-group">
+                <h3 class="group-title">💻 Programming</h3>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-icon">📝</div>
+                        <h4>Text Parser in C</h4>
+                        <p class="tech-stack">C Programming</p>
+                        <p class="description">Program to parse text into paragraphs, sentences, and words using character arrays.</p>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-icon">🔢</div>
+                        <h4>Algorithmic Solutions</h4>
+                        <p class="tech-stack">Java | Python</p>
+                        <p class="description">Efficient implementations of algorithms like LCM calculation and number operations.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- AI & Innovation -->
+            <div class="project-group">
+                <h3 class="group-title">🤖 AI & Innovation</h3>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-icon">🛍️</div>
+                        <h4>SoulCart Platform</h4>
+                        <p class="tech-stack">AI | Blockchain | AR/VR Concepts</p>
+                        <p class="description">AI-driven sustainable commerce engine with emotion-based shopping and circular economy features.</p>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-icon">✋</div>
+                        <h4>Hand Gesture Control</h4>
+                        <p class="tech-stack">Python | OpenCV</p>
+                        <p class="description">Webcam-based system for controlling screen using hand gestures via computer vision.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Internships -->
+            <div class="project-group">
+                <h3 class="group-title">💼 Internship Experience</h3>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-icon">🌟</div>
+                        <h4>Web Dev Internship</h4>
+                        <p class="tech-stack">Sanpra Consultancy Services</p>
+                        <p class="description">Frontend development with focus on responsive web design and real-world project structure.</p>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-icon">📊</div>
+                        <h4>Data Science Internship</h4>
+                        <p class="tech-stack">Oasis Infobyte</p>
+                        <p class="description">Data analysis and visualization with Python, dataset preprocessing, and analytical thinking.</p>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-icon">🐍</div>
+                        <h4>Python Programming</h4>
+                        <p class="tech-stack">CodeAlpha</p>
+                        <p class="description">Python fundamentals mastery with focus on problem-solving and coding discipline.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="section-header">
+            <h2>Get In Touch</h2>
+            <div class="header-underline"></div>
+        </div>
+
+        <div class="contact-container">
+            <div class="contact-form-area">
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Your Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="6" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+
+            <div class="contact-info-area">
+                <h3>Contact Information</h3>
+                <div class="info-items">
+                    <div class="info-item">
+                        <span class="icon">📧</span>
+                        <div>
+                            <p class="label">Email</p>
+                            <a href="mailto:siyaphor942@gmail.com">siyaphor942@gmail.com</a>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <span class="icon">📱</span>
+                        <div>
+                            <p class="label">Phone</p>
+                            <a href="tel:+918950912655">+91 89509 12655</a>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <span class="icon">💻</span>
+                        <div>
+                            <p class="label">GitHub</p>
+                            <a href="https://github.com/Siyaphor" target="_blank">github.com/Siyaphor</a>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <span class="icon">💼</span>
+                        <div>
+                            <p class="label">LinkedIn</p>
+                            <a href="https://www.linkedin.com/in/siya-phor" target="_blank">linkedin.com/in/siya-phor</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="social-links">
+                    <a href="https://github.com/Siyaphor" class="social-btn">GitHub</a>
+                    <a href="https://www.linkedin.com/in/siya-phor" class="social-btn">LinkedIn</a>
+                </div>
+            </div>
+        </div>
+    </section>    <!-- Footer -->
     <footer>
-        <p>© 2026 SiYA | Personal Portfolio</p>
+        <div class="footer-content">
+            <p>&copy; 2026 SiYA | Personal Portfolio. All rights reserved.</p>
+            <p>Designed & Built with <span class="heart">❤️</span> by SiYA</p>
+        </div>
     </footer>
+
+    <script>
+        // Handle contact form submission
+        document.querySelector('.contact-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            const name = document.getElementById('name').value;
+            const email = document.getElementById('email').value;
+            const subject = document.getElementById('subject').value;
+            const message = document.getElementById('message').value;
+            
+            // Create mailto link with form data
+            const mailtoLink = `mailto:siyaphor942@gmail.com?subject=${encodeURIComponent('Portfolio Contact: ' + subject)}&body=${encodeURIComponent(`Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`)}`;
+            
+            // Open default email client
+            window.location.href = mailtoLink;
+            
+            // Show confirmation
+            alert('Opening your email client to send the message!\n\nIf it doesn\'t open, please send an email to: siyaphor942@gmail.com');
+            
+            // Reset form
+            this.reset();
+        });
+    </script>
 
 </body>
 </html>
